@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="/landing/css/global/plugins/icon-font.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="/landing/css/style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.min.css">
     <!-- /build -->
 </head>
 
@@ -48,6 +50,8 @@
     <script src="/landing/js/global/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="/landing/js/global/bootstrap.bundle.min.js"></script>
+    {{-- alert sweetjs --}}
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.min.js"></script>
     <!-- Main JS -->
     <script src="/landing/js/script.js"></script>
     <!-- /build -->

@@ -10,23 +10,23 @@
                 <!-- // end .lead -->
             </div>
             <!-- // end .col-sm-3 -->
-            <div class="col-sm-2">
+            {{-- <div class="col-sm-2">
                 <ul class="list-unstyled footer-links ml-1">
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#about">About us</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
+            </div> --}}
             <!-- // end .col-sm-3 -->
-            <div class="col-sm-2">
+            {{-- <div class="col-sm-2">
                 <ul class="list-unstyled footer-links ml-1">
                     <li><a href="#">Terms</a></li>
                     <li><a href="#about">Privacy</a></li>
                 </ul>
-            </div>
+            </div> --}}
             <!-- // end .col-sm-3 -->
-            <div class="col-sm-2">
+            <div class="col-sm-4">
                 <ul class="list-unstyled footer-links ml-1">
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">Twitter</a></li>

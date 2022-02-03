@@ -1,5 +1,4 @@
 <header id="home">
-
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
@@ -10,7 +9,6 @@
                 aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="site-nav">
                 <ul class="navbar-nav text-sm-left ml-auto">
                     {{-- <li class="nav-item">
@@ -42,33 +40,25 @@
                         <a href="#signup" class="btn align-middle btn-primary my-2 my-lg-0">Sign Up</a>
                     </li> --}}
                 </ul>
-
             </div>
         </div>
     </nav>
     <!-- // end navbar -->
-
-
     <!-- hero -->
     <section class="jumbotron-two">
-
         <div class="container">
-
             <div class="row align-items-center">
                 <div class="col-12 col-md-5">
-
                     <h1 class="display-5">BTPPRO.NET</h1>
                     <p class="text-muted mb-3">Nous disposons d’un réseaux de compétences qualifiées pour DES TACHES
                         Précises, en vue de réaliser vos travaux en électricité BTet HT,batiment, climatisation et
-                        froid,genie civil , travaux public, route , construction , automatisme et telegestion, agro
-                        industrie, mine ,pétrole et gaz.</p>
+                        froid,genie civil,travaux public,route,construction,automatisme et telegestion,agro
+                        industrie,mine,pétrole et gaz.</p>
                     <p>
-                        <a href="#signup" class="btn btn-xl btn-primary">Get started free</a>
+                        <a href="#signup" class="btn btn-xl btn-primary">Inscrivez-vous</a>
                     </p>
-
                 </div>
                 <div class="col-12 col-md-7 my-3 my-md-lg">
-
                     <div class="youtube cast-shadow" data-video-id="rm5sdAYCqqc"
                         data-params="modestbranding=1&amp;showinfo=0&amp;controls=1&amp;vq=hd720">
                         <img src="/landing/images/btpimage.jpg" alt="image" class="img-fluid">
@@ -76,15 +66,11 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </section>
     <!-- // end hero -->
-
 
     <div class="bg-shape"></div>
     <div class="bg-circle"></div>
     <div class="bg-circle-two"></div>
-
 </header>

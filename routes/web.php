@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\NewslettersController;
+use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', function () {
-    return view('acceuil');
-});
+Route::get('/', [WelcomeController::class, 'index'])->name('acceuil');
+Route::post('/newsletter', [NewslettersController::class, 'add'])->name('add_newsletter');
