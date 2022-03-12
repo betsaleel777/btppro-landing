@@ -2,7 +2,7 @@
     <div class="container">
         <div class="section-title text-center">
             <h3>Inscrivez Vous !</h3>
-            <p>Pour rester informer au sujet de l'actualité de BTPPRO.</p>
+            <p>Pour rester informer au sujet de l'actualité de btppro.</p>
             @include('partials.flash')
         </div>
         <div class="row justify-content-md-center">

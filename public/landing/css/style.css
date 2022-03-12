@@ -1095,4 +1095,8 @@ a.title:hover img {
     padding-top: 2em;
 }
 
+.feature-title {
+    font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */

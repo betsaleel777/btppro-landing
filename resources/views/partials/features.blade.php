@@ -1,5 +1,4 @@
 <div class="section" id="features">
-
     <div class="container">
         <div class="row align-items-center">
             <div class="col-sm-8">
@@ -12,7 +11,7 @@
                         </div>
                     </div>
                     <div class="content">
-                        <img src="/landing/images/dashboard1.png" alt="image">
+                        <img src="{{ asset('/landing/images/dashboard1.jpg') }}" alt="image">
                     </div>
                 </div>
             </div>
@@ -20,48 +19,36 @@
                 <div class="media">
                     <div class="media-body">
                         <div class="media-icon mb-3"> <i class="pe-7s-like2 pe-3x"></i> </div>
-                        <h3 class="mt-0">Adhére à l’appli</h3>
+                        <h3 class="mt-0 feature-title">Adhére à l’appli</h3>
                         <p> vous avez une compétence à offrir en electricite,climatisation et froid,batiment, geni
                             civil,travaux public,route,automatisme telegestion,instrumentation, radio, gaz pétrole
                             mine,construction.</p>
                     </div>
                 </div>
             </div>
-
         </div>
-
-
-
         <div class="row align-items-center mt-5">
-
             <div class="col-sm-4">
                 <div class="media">
                     <div class="media-body">
                         <div class="media-icon mb-3"> <i class="pe-7s-graph1 pe-3x"></i> </div>
-                        <h3 class="mt-0">Gagne des contrats et deviens ton propre patron</h3>
+                        <h3 class="mt-0 feature-title">Gagne des contrats et deviens ton propre patron</h3>
                         <p> Bonne nouvelle pour vous , vous pouvez etes un auto entrepreneur sans
                             avoir créer une entreprise, vous êtes salariés faites vous des revenus additionnels , soyez
                             un travailleur autonome grâce à btppo.net</p>
                     </div>
                 </div>
             </div>
-
-
             <div class="col-sm-8">
-                <img src="/landing/images/dashboard3.png" alt="image" class="img-fluid cast-shadow my-5">
+                <img src="{{ asset('/landing/images/dashboard2.jpg') }}" alt="image"
+                    class="img-fluid cast-shadow my-5">
             </div>
-
-
         </div>
     </div>
-
-
-
 </div>
 <!-- features -->
 {{-- <div class="section bg-light py-lg">
     <div class="container">
-
         <div class="row">
             <div class="col-md-6 col-lg-4">
                 <div class="media">
@@ -94,8 +81,6 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 </div> --}}

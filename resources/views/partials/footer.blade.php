@@ -1,9 +1,9 @@
 <div class="section bg-light mt-4" id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4"> <img src="/landing/images/global/logo-dark.svg" class="logo-dark"
+            <div class="col-sm-4"> <img src="{{ asset('/landing/images/btp-logo.png') }}" class="logo-dark"
                     alt="Start.ly Logo" />
-                <p class="mt-3 ml-1 text-muted">BTPPRO 1ère APPICATION DE MISE EN RELATION DU BTP.</p>
+                <p class="mt-3 ml-1 text-muted">btppro 1ère APPICATION DE MISE EN RELATION DU BTP.</p>
                 {{-- <p class="ml-1"><a
                         href="https://themeforest.net/user/surjithctly/portfolio?ref=surjithctly&utm_source=footer_content"
                         target="_blank">Purchase now →</a></p> --}}

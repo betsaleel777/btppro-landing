@@ -13,12 +13,13 @@
     <!-- CSS Files -->
     <link href="https://fonts.googleapis.com/css?family=Product+Sans:300,400,700" rel="stylesheet">
     <!-- build:css css/app.min.css -->
+    <link rel="icon" href="{{ asset('/landing/images/global/favicon.ico') }}">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/landing/css/global/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('/landing/css/global/bootstrap.min.css') }}">
     <!-- Plugins -->
-    <link rel="stylesheet" href="/landing/css/global/plugins/icon-font.css">
+    <link rel="stylesheet" href="{{ asset('/landing/css/global/plugins/icon-font.css') }}">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="/landing/css/style.css">
+    <link rel="stylesheet" href="{{ asset('/landing/css/style.css') }}">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.min.css">
     <!-- /build -->
@@ -47,13 +48,13 @@
     <!-- JS Files -->
     <!-- build:js js/app.min.js -->
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="/landing/js/global/jquery-3.2.1.min.js"></script>
+    <script src="{{ asset('/landing/js/global/jquery-3.2.1.min.js') }}"></script>
     <!-- Bootstrap JS -->
-    <script src="/landing/js/global/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('/landing/js/global/bootstrap.bundle.min.js') }}"></script>
     {{-- alert sweetjs --}}
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.min.js"></script>
     <!-- Main JS -->
-    <script src="/landing/js/script.js"></script>
+    <script src="{{ asset('/landing/js/script.js') }}"></script>
     <!-- /build -->
 </body>
 

@@ -3,7 +3,9 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <h3 class="gradient-mask">BTPPRO</h3>
+                <h3 class="gradient-mask">
+                    <img src="{{ asset('/landing/images/btp-logo.png') }}" class="logo-dark" alt="btppro logo" />
+                </h3>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-nav"
                 aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,11 +51,11 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-5">
-                    <h1 class="display-5">BTPPRO.NET</h1>
-                    <p class="text-muted mb-3">Nous disposons d’un réseaux de compétences qualifiées pour DES TACHES
-                        Précises, en vue de réaliser vos travaux en électricité BTet HT,batiment, climatisation et
-                        froid,genie civil,travaux public,route,construction,automatisme et telegestion,agro
-                        industrie,mine,pétrole et gaz.</p>
+                    <h1 class="display-5">btppro.net</h1>
+                    <p class="text-muted mb-3">Nous disposons d’un réseau de compétences qualifiées pour des taches
+                        précises, en vue de réaliser vos travaux en électricité BT et HT, bâtiment, climatisation et
+                        froid, génie civil, travaux publics, route, construction, automatisme et télégestion,
+                        agro-industrie, mine, pétrole et gaz.</p>
                     <p>
                         <a href="#signup" class="btn btn-xl btn-primary">Inscrivez-vous</a>
                     </p>
@@ -61,7 +63,8 @@
                 <div class="col-12 col-md-7 my-3 my-md-lg">
                     <div class="youtube cast-shadow" data-video-id="rm5sdAYCqqc"
                         data-params="modestbranding=1&amp;showinfo=0&amp;controls=1&amp;vq=hd720">
-                        <img src="/landing/images/btpimage.jpg" alt="image" class="img-fluid">
+                        <img src="{{ asset('/landing/images/btpimage.jpg') }}" height="100" alt="image"
+                            class="img-fluid">
                         <div class="play"><span class="pe-7s-play pe-3x"></span></div>
                     </div>
                 </div>
@@ -69,7 +72,6 @@
         </div>
     </section>
     <!-- // end hero -->
-
     <div class="bg-shape"></div>
     <div class="bg-circle"></div>
     <div class="bg-circle-two"></div>
